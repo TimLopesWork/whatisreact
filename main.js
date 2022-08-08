@@ -15,7 +15,7 @@
  const AboutPage =()=>`<h1>About</h1><a href='https://timlopeswork.github.io/whatisreact/'>Home</a>`;
  // Simulation a react main exit point
  const Index =()=>{
-      if(thepath !== home || thepath !== home+"index.html"){
+      if(thepath !== home){
        root.innerHTML=AboutPage();
       }else{
        root.innerHTML=HomePage();
