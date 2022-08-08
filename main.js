@@ -1,10 +1,10 @@
 // Initializing the globlal event listener in the whole Site
 document.addEventListener("DOMContentLoaded", () =>{
     // Declearing homepath
-    const home = "/whatisreact/index.html";
+    const home = "/whatisreact/index.html"; // https://timlopeswork.github.io/whatisreact/
     // Getting the dynamic path from url
     const thepath = window.location.pathname;
-
+    console.log(thpath);
     const root = document.getElementById('root');
     // Simulation a react component HomePage
     const HomePage =()=>`<h1>hello World!</h1><a href='http://localhost/whatIsReact/about.html'>>About</a>`;
