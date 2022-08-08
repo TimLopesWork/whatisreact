@@ -1,5 +1,5 @@
 // Initializing the globlal event listener in the whole Site
-document.addEventListener("DOMContentLoaded", () =>{
+
     // Declearing homepath
     const home = "/whatisreact/index.html"; // https://timlopeswork.github.io/whatisreact/
     // Getting the dynamic path from url
@@ -14,4 +14,4 @@ document.addEventListener("DOMContentLoaded", () =>{
     const Index =()=>{
          const isHome = thepath === home ? root.innerHTML=HomePage() : root.innerHTML=AboutPage();
     }; Index();
-})();
+
