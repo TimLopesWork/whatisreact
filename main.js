@@ -1,7 +1,7 @@
  // Declearing homepath
  const home = "https://timlopeswork.github.io/whatisreact/"; 
  // Getting the dynamic path from url
- const thepath = window.location.pathname;
+ const thepath = window.location.href;
  console.log(thepath);
  const root = document.getElementById('root');
  // Simulation a react component HomePage
