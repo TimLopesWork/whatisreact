@@ -10,5 +10,5 @@
  const AboutPage =()=>`<h1>About</h1><a href='https://timlopeswork.github.io/whatisreact/index.html'>Home</a>`;
  // Simulation a react main exit point
  const Index =()=>{
-      const isHome = thepath === home ? root.innerHTML=HomePage() : root.innerHTML=AboutPage();
+      const isHome = thepath === home || thepath === home+"index.html" ? root.innerHTML=HomePage() : root.innerHTML=AboutPage();
  }; Index();
