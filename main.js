@@ -13,6 +13,6 @@
       if(thepath !== home || thepath !== home+"index.html"){
        root.innerHTML=AboutPage();
       }else{
-       ? root.innerHTML=HomePage();
+       root.innerHTML=HomePage();
       }
  }; Index();
