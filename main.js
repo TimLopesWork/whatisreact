@@ -2,7 +2,7 @@
  const home = "https://timlopeswork.github.io/whatisreact/"; 
  // Getting the dynamic path from url
  const thepath = window.location.pathname;
- console.log(thpath);
+ console.log(thepath);
  const root = document.getElementById('root');
  // Simulation a react component HomePage
  const HomePage =()=>`<h1>hello World!</h1><p> I am HomePage</p><a href='https://timlopeswork.github.io/whatisreact/about.html'>>About</a>`;
