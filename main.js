@@ -7,7 +7,7 @@
  // Simulation a react component HomePage
  const HomePage =()=>`
    <h1>hello World!</h1>
-   <p> I am HomePage</p>
+   <p>This is the HomePage</p>
    <p>This is a Demo to show how reactJs works under the woods</p>
    <a href='https://timlopeswork.github.io/whatisreact/about.html'>>About</a>
    `;
