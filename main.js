@@ -9,7 +9,8 @@
    <h1>hello World!</h1>
    <p>This is the HomePage</p>
    <p>This is a Demo to show how reactJs works under the woods</p>
-   <a href='https://timlopeswork.github.io/whatisreact/about.html'>>About</a>
+   <a href='https://timlopeswork.github.io/whatisreact/about.html'>About</a>
+   <a href='https://timlopeswork.github.io/whatisreact/about.html'>Collaborated</a>
    `;
  // Simulation a react component AboutPage
  const AboutPage =()=>`<h1>About</h1><a href='https://timlopeswork.github.io/whatisreact/'>Home</a>`;
